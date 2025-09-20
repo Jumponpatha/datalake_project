@@ -50,3 +50,5 @@ Thumbs.db
 notebooks/spark-warehouse/
 notebooks/.ipynb_checkpoints/
 notebooks/spark-warehouse/
+
+storage
