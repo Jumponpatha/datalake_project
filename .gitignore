@@ -13,11 +13,11 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
+
 
 # Spark
 spark/spark-logs/
-spark-warehouse/
+notebooks/spark-warehouse/
 *.log
 spark-events/
 history-server/

@@ -95,7 +95,7 @@ services:
       - MINIO_ROOT_USER=${MINIO_ROOT_USER}
       - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD}
     volumes:
-      - ./warehouse:/data
+      - ./storage/minio:/data
     command: ["server", "/data", "--console-address", ":9001"]
     ports:
       - "9000:9000"
