@@ -69,7 +69,7 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./notebooks:/home/jovyan/notebooks:ro  # read-only, avoids temp files
+      - ./notebooks:/home/jovyan/notebooks
       - ./data:/opt/spark/data
   rest:
     image: apache/iceberg-rest-fixture
